@@ -1,0 +1,3 @@
+baseURL = "https://py3thon.github.io/"
+languageCode = "zh-hk"
+title = "My New Hugo Site"
