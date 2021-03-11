@@ -1,3 +1,20 @@
 baseURL = "https://py3thon.github.io/"
 languageCode = "zh-hk"
-title = "My New Hugo Site"
+title = "Py3thon"
+theme = "casper"
+
+[params]
+	cover = "https://na.cx/i/TgisdfT.gif"    #封面照片
+	githubName = "py3thon"    #GitHub用戶名
+
+[[menu.main]]    #頁面菜單參數
+  name = "My Post"
+  weight = -120
+  identifier = "posts"
+  url = "/posts"
+
+[[menu.main]]
+  name = "About me"
+  weight = -110
+  identifier = "about"
+  url = "/about"
